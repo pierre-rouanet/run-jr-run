@@ -1,0 +1,28 @@
+{
+  "controllers": {
+    "arm_controller": {
+      "sync_read": false,
+      "attached_motors": [
+        "driveback_arm"
+      ],
+      "port": "auto"
+    }
+  },
+  "motorgroups": {
+    "driveback_arm": [
+      "arm"
+    ]
+  },
+  "motors": {
+    "arm": {
+      "offset": 0.0,
+      "type": "MX-64",
+      "id": 1,
+      "angle_limit": [
+        -90,
+        90
+      ],
+      "orientation": "direct"
+    }
+  }
+}
